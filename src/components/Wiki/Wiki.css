@@ -1,0 +1,11 @@
+.wiki-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wiki-container .wiki-search {
+    margin-top: 50px;
+    width: 40%;
+}

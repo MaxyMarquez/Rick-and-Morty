@@ -1,0 +1,69 @@
+.form {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 400px;
+    height: auto;
+    color: rgba(255, 254, 254, 0.685);
+    border-radius: 8px;
+    /* border: 2px solid rgb(51, 255, 0); */
+}
+
+.form-container label {
+    letter-spacing: 5px;
+    padding: 0 5px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(51, 255, 0);
+}
+
+.form-container img {
+    width: 250px;
+    height: 250px;
+}
+
+.form-container form {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form-container input {
+    background-color: transparent;
+    width: 70%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: rgba(255, 254, 254, 0.685);
+    border: none;
+    border-bottom: 2px solid rgb(51, 255, 0);
+    transition: all .5s ease;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.form-container button {
+    border: 2px solid rgb(51, 255, 0);
+    border-radius: 8px;
+    width: 150px;
+    height: 35px;
+    font-size: 1rem;
+    color: rgba(255, 254, 254, 0.685);
+    background-color: transparent;
+    margin: 20px 0;
+    transition: all .2s ease;
+}
+
+.form-container button:hover {
+    box-shadow: 1px 1px 15px rgb(51, 255, 0);
+}

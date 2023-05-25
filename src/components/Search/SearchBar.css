@@ -1,0 +1,43 @@
+.searchBar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    gap: 10px;
+    width: 100%;
+    height: 60px;
+    transition: all .3s ease;
+}
+
+.searchBar-container input {
+    display: flex;
+    place-items: center;
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid rgb(51, 255, 0);
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    background-color: transparent;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease;
+}
+
+.searchBar-container input:focus {
+    outline: none;
+    background-color: rgba(100, 100, 100, 0.527);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.button-clear {
+    position: absolute;
+    right: 10%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button-clear:hover {
+    color: red;
+}
